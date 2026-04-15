@@ -11,6 +11,7 @@ Source0:	https://github.com/symfony/finder/archive/v%{version}/finder-%{version}
 # Source0-md5:	bd94128f8fe41b78f7c99654195ebe86
 URL:		https://symfony.com/doc/current/components/finder.html
 BuildRequires:	%{_bindir}/php
+BuildRequires:	php(tokenizer)
 BuildRequires:	rpmbuild(macros) >= 1.610
 Requires:	php(core) >= %{php_min_version}
 Requires:	php(pcre)
